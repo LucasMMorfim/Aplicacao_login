@@ -1,0 +1,76 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c36;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1d1f28;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+}
+
+.menuRegister label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.menuRegister input {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e3242;
+  color: #fff;
+  font-size: 14px;
+}
+
+.registerButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3e4455;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registerButton:hover {
+  background-color: #4e5465;
+}
+
+p {
+  margin: 15px 0px 2px 0px;
+  font-size: 14px;
+}
+
+.linkSpan {
+  font-size: 14px;
+}
+
+.linkSpan a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.linkSpan a:hover {
+  text-decoration: underline;
+}
